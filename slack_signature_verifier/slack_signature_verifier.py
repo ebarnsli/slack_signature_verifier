@@ -1,7 +1,6 @@
 import hashlib
 import hmac
 
-
 def verify_slack_signature(slack_post_request, slack_signing_secret):
     slack_signature = slack_post_request['headers']['X-Slack-Signature']
     slack_request_timestamp = slack_post_request['headers']['X-Slack-Request-Timestamp']
