@@ -1,4 +1,4 @@
-#SLACK SIGNATURE VERIFIER
+# SLACK SIGNATURE VERIFIER
 
 ## Use
     - pass in post request from slack and your apps signing secret
