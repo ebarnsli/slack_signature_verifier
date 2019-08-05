@@ -1,2 +1,5 @@
 .idea/
 venv/
+MANIFEST
+dist/
+.DS_Store
