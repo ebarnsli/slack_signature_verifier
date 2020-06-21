@@ -1,5 +1,7 @@
 # SLACK SIGNATURE VERIFIER
 
+https://pypi.org/project/slack-signature-verifier/#description
+
 ## Use
     - pass in post request from slack and your apps signing secret
     - returns whether request is valid message from slack
