@@ -7,6 +7,8 @@ https://pypi.org/project/slack-signature-verifier/#description
     - returns whether request is valid message from slack
     
 ```
+ from slack_signature_verifier.slack_signature_verifier import verify_slack_signature
+
  slack_request = {
     body: "example_body",
     headers: {
