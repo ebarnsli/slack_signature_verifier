@@ -17,6 +17,6 @@ https://pypi.org/project/slack-signature-verifier/#description
     }
  }
  
- is_valid_request = verify_slack_signature(slack_request, os.envrion["SLACK_SIGNING_SECRET"])
+ is_valid_request = verify_slack_signature(slack_request, os.environ["SLACK_SIGNING_SECRET"])
  
 ```
